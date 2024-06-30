@@ -20,7 +20,7 @@ Reflectia is rooted in various philosophical traditions, including ancient Greek
 ### *Technical Details*
 
 - Built with Django, HTMX and Tailwind
-- Utilizes the Gemini LLM 
+- Utilizes the Llama 3 API 
 - Uses SQLite Database
 
 
