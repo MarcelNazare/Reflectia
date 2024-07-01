@@ -3,6 +3,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 const typography = require('@tailwindcss/typography')
 
+
 module.exports = {
   content: [
     './templates/**/*.html'
@@ -22,11 +23,25 @@ module.exports = {
         '900': '#161c9c',
         '950': '#0c1475',
     },
+    'gin': {
+        '50': '#f4f9f7',
+        '100': '#e9f4ee',
+        '200': '#cde5d8',
+        '300': '#a6cfba',
+        '400': '#77b192',
+        '500': '#539472',
+        '600': '#41785b',
+        '700': '#35604a',
+        '800': '#2e4d3d',
+        '900': '#274034',
+        '950': '#11221a',
+    },
+    
     },
     },
     extend: {
       fontFamily:{
-        sans:['Inter var', ...defaultTheme.fontFamily.sans],
+        'body':['Inter'],
       },
       screens:{
         sm: '640px',
