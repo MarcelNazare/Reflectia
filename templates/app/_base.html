@@ -10,15 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="{% static 'favicon/favicon.ico' %}">
     <title>Reflectia - {% block title %}{% endblock title %}</title>
-    {% compress css %}
+    {% compress css %} 
     <link rel="stylesheet" href="{% static 'src/output.css' %}">
     {% endcompress %}
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 
 </head>
 
-<body  class="font-Intervar ">
-    <div class="container mx-auto mt-4 bg-deep-koamaru-900">
+<body  class="font-Intervar bg-deep-koamaru-950">
+    <div class="container mx-auto ">
         {% block content %}
 
         {% endblock content %}
