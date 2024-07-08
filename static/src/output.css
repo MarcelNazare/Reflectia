@@ -1375,6 +1375,10 @@ html{
   background-color: rgb(119 177 146 / 0.5);
 }
 
+.bg-gin-600\/80{
+  background-color: rgb(65 120 91 / 0.8);
+}
+
 .p-1{
   padding: 0.25rem;
 }
