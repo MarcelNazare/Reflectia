@@ -36,7 +36,7 @@ module.exports = {
         '900': '#274034',
         '950': '#11221a',
     },
-    'base': {
+    'reflectia': {
         '50': '#f6f6f6',
         '100': '#e7e7e7',
         '200': '#d1d1d1',
@@ -55,7 +55,8 @@ module.exports = {
     },
     extend: {
       fontFamily:{
-        'body':['Inter'],
+        'body':['Inter var'],
+        PlayfairDisplay: ['Playfair Display', 'serif'],
       },
       screens:{
         sm: '640px',
@@ -68,5 +69,6 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('daisyui'),
     typography,
+    defaultTheme,
   ],
 }

@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
 
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: "EudoxusSans";
+    src: url("../font/EudoxusSans-ExtraBold.ttf");
+    src: url("../font/EudoxusSans-ExtraBold.woff") format("woff"),
+    }
+
+.font-body{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.header-font{
+    font-family: 'EudoxusSans';
+}
+
 
