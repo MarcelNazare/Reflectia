@@ -1,4 +1,4 @@
-l # Reflectia
+# Reflectia
 <img width="1440"  alt="Reflectia-LogoArtboard 1@2x" src="https://github.com/MarcelNazare/Reflectia/assets/40214549/a04cb47b-e407-4e46-9bf0-f31e65a7b015">
 
 
