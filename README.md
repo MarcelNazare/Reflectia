@@ -1,5 +1,6 @@
 l # Reflectia
-<img width="1440" alt="Reflectia-LogoArtboard 1@2x" src="https://github.com/MarcelNazare/Reflectia/assets/40214549/e3e8a580-7579-4fc6-9425-d437e8998ed9">
+<img width="1440" alt="Reflectia-LogoArtboard 1@2x" src="https://github.com/MarcelNazare/Reflectia/assets/40214549/dae913d9-fe42-43e2-ad7f-586071d38094">
+
 
 
 ## *A Thought-Taking App for Self-Reflection and Personal Growth*
