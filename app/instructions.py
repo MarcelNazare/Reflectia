@@ -7,11 +7,20 @@ See the getting started guide for more information:
 https://ai.google.dev/gemini-api/docs/get-started/python
 """
 
+import timeit
 import os
 
 import google.generativeai as genai
 
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+from dotenv import load_dotenv, dotenv_values 
+
+load_dotenv() 
+ 
+
+start = timeit.default_timer()
+
+
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 # Create the model
 # See https://ai.google.dev/api/python/google/generativeai/GenerativeModel
@@ -35,6 +44,11 @@ chat_session = model.start_chat(
   history=[]
 )
 
-response = chat_session.send_message("INSERT_INPUT_HERE")
+response = chat_session.send_message("I'm just a man")
 
 print(response.text)
+#Your statements here
+
+stop = timeit.default_timer()
+
+print('Time: ', stop - start)  
