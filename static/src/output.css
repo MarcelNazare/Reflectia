@@ -908,21 +908,45 @@ html{
   position: static;
 }
 
+.m-16{
+  margin: 4rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
-}
-
-.mt-28{
-  margin-top: 7rem;
 }
 
 .block{
   display: block;
 }
 
+.flex{
+  display: flex;
+}
+
 .h-screen{
   height: 100vh;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .bg-reflectia-950{
@@ -934,13 +958,12 @@ html{
   padding: 2rem;
 }
 
-.text-center{
-  text-align: center;
+.p-16{
+  padding: 4rem;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-center{
+  text-align: center;
 }
 
 .text-8xl{
