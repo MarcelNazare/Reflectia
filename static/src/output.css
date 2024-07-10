@@ -1016,6 +1016,14 @@ html{
   width: 75%;
 }
 
+.w-9{
+  width: 2.25rem;
+}
+
+.w-11\/12{
+  width: 91.666667%;
+}
+
 .grid-flow-row{
   grid-auto-flow: row;
 }
