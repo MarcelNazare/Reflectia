@@ -964,6 +964,10 @@ html{
   margin-top: 6rem;
 }
 
+.mt-36{
+  margin-top: 9rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -972,8 +976,8 @@ html{
   margin-top: 1.5rem;
 }
 
-.mt-36{
-  margin-top: 9rem;
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .block{
@@ -1000,20 +1004,12 @@ html{
   width: 91.666667%;
 }
 
-.w-3\/4{
-  width: 75%;
-}
-
-.w-12{
-  width: 3rem;
-}
-
-.w-1{
-  width: 0.25rem;
-}
-
 .w-24{
   width: 6rem;
+}
+
+.w-3\/4{
+  width: 75%;
 }
 
 .w-36{
@@ -1169,6 +1165,14 @@ html{
   padding: 2rem;
 }
 
+.p-1{
+  padding: 0.25rem;
+}
+
+.p-7{
+  padding: 1.75rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1227,11 +1231,7 @@ html{
   font-family: 'EudoxusSans';
 }
 
-@media (min-width: 640px){
-  .sm\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
+h3{
+  font-size: 24px;
+  font-weight: 700;
 }
-
-
