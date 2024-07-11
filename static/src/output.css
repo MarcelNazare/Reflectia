@@ -936,14 +936,14 @@ html{
   position: static;
 }
 
-.mx-36{
-  margin-left: 9rem;
-  margin-right: 9rem;
-}
-
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.mx-40{
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .mx-8{
@@ -954,11 +954,6 @@ html{
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
-}
-
-.mx-40{
-  margin-left: 10rem;
-  margin-right: 10rem;
 }
 
 .mt-12{
@@ -975,6 +970,10 @@ html{
 
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mt-36{
+  margin-top: 9rem;
 }
 
 .block{
@@ -1003,6 +1002,22 @@ html{
 
 .w-3\/4{
   width: 75%;
+}
+
+.w-12{
+  width: 3rem;
+}
+
+.w-1{
+  width: 0.25rem;
+}
+
+.w-24{
+  width: 6rem;
+}
+
+.w-36{
+  width: 9rem;
 }
 
 .grid-flow-row{
@@ -1073,34 +1088,16 @@ html{
   gap: 1rem;
 }
 
-.space-x-12 > :not([hidden]) ~ :not([hidden]){
+.space-x-16 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
-  margin-right: calc(3rem * var(--tw-space-x-reverse));
-  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(4rem * var(--tw-space-x-reverse));
+  margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-24 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(6rem * var(--tw-space-x-reverse));
   margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-32 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(8rem * var(--tw-space-x-reverse));
-  margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-2 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-16 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(4rem * var(--tw-space-x-reverse));
-  margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .place-self-start{
@@ -1117,10 +1114,6 @@ html{
 
 .rounded-lg{
   border-radius: 0.5rem;
-}
-
-.rounded{
-  border-radius: 0.25rem;
 }
 
 .border{
@@ -1168,20 +1161,12 @@ html{
   padding: 0.5rem;
 }
 
-.p-8{
-  padding: 2rem;
-}
-
-.p-24{
-  padding: 6rem;
-}
-
-.p-4{
-  padding: 1rem;
-}
-
 .p-6{
   padding: 1.5rem;
+}
+
+.p-8{
+  padding: 2rem;
 }
 
 .px-4{
@@ -1240,6 +1225,13 @@ html{
 
 .header-font{
   font-family: 'EudoxusSans';
+}
+
+@media (min-width: 640px){
+  .sm\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 

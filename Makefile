@@ -33,3 +33,7 @@ watch:
 
 
 
+freeze:
+	@echo "[+] Freezing Python Packages"
+	@pip freeze > requirements.txt
+	@echo "[+] DONE!"
