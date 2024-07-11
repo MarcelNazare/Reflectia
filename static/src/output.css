@@ -936,6 +936,10 @@ html{
   position: static;
 }
 
+.m-auto{
+  margin: auto;
+}
+
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -954,6 +958,11 @@ html{
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mb-6{
@@ -1004,6 +1013,18 @@ html{
   height: 6rem;
 }
 
+.h-14{
+  height: 3.5rem;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
 .w-10{
   width: 2.5rem;
 }
@@ -1022,6 +1043,18 @@ html{
 
 .w-36{
   width: 9rem;
+}
+
+.w-4{
+  width: 1rem;
+}
+
+.w-2{
+  width: 0.5rem;
+}
+
+.w-14{
+  width: 3.5rem;
 }
 
 .grid-flow-row{
@@ -1177,6 +1210,14 @@ html{
   padding: 2rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
+.p-1{
+  padding: 0.25rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1207,6 +1248,11 @@ html{
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-reflectia-200{
