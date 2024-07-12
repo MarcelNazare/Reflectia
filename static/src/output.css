@@ -936,10 +936,6 @@ html{
   position: static;
 }
 
-.m-auto{
-  margin: auto;
-}
-
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -958,11 +954,6 @@ html{
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-auto{
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .mb-6{
@@ -1005,24 +996,12 @@ html{
   display: none;
 }
 
-.h-40{
-  height: 10rem;
-}
-
 .h-24{
   height: 6rem;
 }
 
-.h-14{
-  height: 3.5rem;
-}
-
-.h-full{
-  height: 100%;
-}
-
-.h-screen{
-  height: 100vh;
+.h-40{
+  height: 10rem;
 }
 
 .w-10{
@@ -1043,18 +1022,6 @@ html{
 
 .w-36{
   width: 9rem;
-}
-
-.w-4{
-  width: 1rem;
-}
-
-.w-2{
-  width: 0.5rem;
-}
-
-.w-14{
-  width: 3.5rem;
 }
 
 .grid-flow-row{
@@ -1137,10 +1104,6 @@ html{
   margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.place-self-start{
-  place-self: start;
-}
-
 .place-self-end{
   place-self: end;
 }
@@ -1208,14 +1171,6 @@ html{
 
 .p-8{
   padding: 2rem;
-}
-
-.p-3{
-  padding: 0.75rem;
-}
-
-.p-1{
-  padding: 0.25rem;
 }
 
 .px-4{
