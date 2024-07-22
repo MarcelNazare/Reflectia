@@ -39,8 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'compressor',
     'template_partials',
-    'core',
+    'allauth',  
+    'allauth.account', 
+    'allauth.socialaccount',
     'user',
+    'app',
     
 ]
 
@@ -51,7 +54,9 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    "allauth.account.middleware.AccountMiddleware", 
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'reflectia.urls'
@@ -136,3 +141,8 @@ STATICFILES_FINDERS = ('compressor.finders.CompressorFinder',)
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SITE_ID = 1  # new
+
+ACCOUNT_EMAIL_VERIFICATION = "none"  # new
+LOGIN_REDIRECT_URL = "/"  

@@ -5,8 +5,8 @@ run:
 
 migrate:
 	@echo "[+] Running Migrations"
-	@python manage.py migrate
 	@python manage.py makemigrations
+	@python manage.py migrate
 
 killport:
 	@echo "[+] Shutting down the port"
