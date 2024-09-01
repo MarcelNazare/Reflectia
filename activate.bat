@@ -1,0 +1,3 @@
+
+..\envs\reflectia\Scripts\activate
+
