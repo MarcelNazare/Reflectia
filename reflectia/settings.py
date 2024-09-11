@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-yz(90k44tdz*^l*gmv)slx5sgzcx4scb1tgf_m-ag$5p!z$60d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# api/settings.py
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -77,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'reflectia.wsgi.application'
+WSGI_APPLICATION = 'reflectia.wsgi.app'
 
 
 # Database

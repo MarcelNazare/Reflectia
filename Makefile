@@ -40,5 +40,4 @@ freeze:
 
 
 activate:
-	@echo "[+] Activating python enviroment"
-	@activate.bat
+	@ activate.bat
