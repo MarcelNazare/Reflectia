@@ -10,9 +10,27 @@
     <p class="mx-8"><a href="#">Contact Us</a></p>
   </div>
   <div>
-    <button class="border border-reflectia-200 rounded-full py-2 px-4 ">Login </button>
-    <a href="">
-    <button class="border border-reflectia-200 rounded-full py-2 px-4 mx-4">Get Started</button>
-  </a>
+ 
+    {% if user.is_authenticated %}
+    <div>
+      <span>{{profile.image}}</span>
+      <span>{{profile.username}}</span>
+    </div>
+   
+    <a href="{% url "account_logout" %}">
+      <button class="border border-reflectia-200 rounded-full py-2 px-4 mx-4">Logout</button>
+    </a>
+    {% else %}
+    <a href="{% url "account_login"%}">
+      <button class="border border-reflectia-200 rounded-full py-2 px-4 ">Login </button></a>
+    <a href="{% url "account_signup" %}">
+      <button class="border border-reflectia-200 rounded-full py-2 px-4 mx-4">Get Started</button>
+    </a>
+    {% endif %}
+
+
   </div>
 </section>
+
+
+

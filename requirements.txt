@@ -4,10 +4,12 @@ cachetools==5.3.3
 certifi==2024.6.2
 cffi==1.16.0
 charset-normalizer==3.3.2
+colorama==0.4.6
 cryptography==42.0.8
 Django==5.0.6
 django-allauth==0.63.3
 django-appconf==1.0.6
+django-livereload-server==0.5.1
 django-template-partials==24.2
 django-widget-tweaks==1.5.0
 django_compressor==4.5
@@ -23,6 +25,7 @@ grpcio-status==1.62.2
 httplib2==0.22.0
 idna==3.7
 oauthlib==3.2.2
+pillow==10.4.0
 proto-plus==1.24.0
 protobuf==4.25.3
 pyasn1==0.6.0
@@ -39,7 +42,9 @@ requests-oauthlib==2.0.0
 rjsmin==1.2.2
 rsa==4.9
 sqlparse==0.5.0
+tornado==6.4.1
 tqdm==4.66.4
 typing_extensions==4.12.2
+tzdata==2024.1
 uritemplate==4.1.1
 urllib3==2.2.2

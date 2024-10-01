@@ -14,11 +14,12 @@ class Profile(models.Model):
     def __str__(self):
         return str(self.username)
     
+    
     @property
-    def avatar(self):
+    def image(self):
         try:
-            avatar = self.image.url
+            image = self.image.url
         except:
-            avatar = static('avatar/avatar.svg')
-        return avatar
+            image = static('avatar/avatar.png')
+        return image
     
