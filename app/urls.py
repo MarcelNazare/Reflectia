@@ -6,7 +6,7 @@ app_name = "app"
 urlpatterns =[
     path('',views.index,name='index'),
     path('contact',views.contact,name='contact'),
-    path('legal',views.legal,name='legal'),
+    path('privacy',views.legal,name='privacy'),
     path('terms',views.terms,name='terms'),
     path('cookies',views.cookies,name='cookies'),
         ]
