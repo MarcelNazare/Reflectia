@@ -1507,6 +1507,14 @@ html{
   position: static;
 }
 
+.sticky{
+  position: sticky;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -1580,6 +1588,18 @@ html{
   margin-bottom: 6rem;
 }
 
+.mt-48{
+  margin-top: 12rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .block{
   display: block;
 }
@@ -1610,6 +1630,10 @@ html{
 
 .h-screen{
   height: 100vh;
+}
+
+.h-dvh{
+  height: 100dvh;
 }
 
 .w-10{

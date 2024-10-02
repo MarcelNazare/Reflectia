@@ -7,6 +7,8 @@ migrate:
 	@echo "[+] Running Migrations"
 	@python manage.py makemigrations
 	@python manage.py migrate
+	@python manage.py makemigrations
+	@echo "[+] Done!"
 
 killport:
 	@echo "[+] Shutting down the port"
@@ -16,6 +18,7 @@ killport:
 createuser:
 	@echo "[+] Creating a super user"
 	@python manage.py createsuperuser
+	@echo "[+] User Created!"
 
 
 install-python-dependencies:

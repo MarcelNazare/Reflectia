@@ -1,13 +1,13 @@
 {% load compress %}
 {% load static %}
-<section class="flex flex-wrap flex-row  items-center  justify-between border-b border-reflectia-200 pb-4">
+<section class="flex flex-wrap flex-row  items-center  justify-between border-b border-reflectia-200 pb-4" id="top">
   <div class="w-36">
     <a href="#"><img src="{% static "images/logo/White-logo.png"%}" alt=""></a>
   </div>
   <div class="flex flex-wrap flex-row justify-between border border-reflectia-200 p-2 rounded-full">
     <p class="mx-8"><a href="{% url "app:index" %}">Home</a></p>
     <p class="mx-8"><a href="{% url "app:index" %}#howItWorks">How It Works</a></p>
-    <p class="mx-8"><a href="#">Contact Us</a></p>
+    <p class="mx-8"><a href="{% url "app:contact" %}">Contact Us</a></p>
   </div>
   <div>
  

@@ -10,8 +10,9 @@
         <div> 
             <p class="text-left">Reflectia's here to support you. Explore your thoughts, identify biases, and watch yourself blossom. Let's start your self-discovery journey together!</p>
             <div class="mt-4">
-                <button class="border border-reflectia-200 px-4 py-2 rounded-full ">Learn More</button>
-                <button class="border border-reflectia-200 px-4 py-2 rounded-full mx-4">Get Started</button>
+                <a href="{% url "app:index" %}#howItWorks"><button class="border border-reflectia-200 px-4 py-2 rounded-full ">Learn More</button></a>
+                <a href="{% url "account_signup" %}"><button class="border border-reflectia-200 px-4 py-2 rounded-full mx-4">Get Started</button></a>
+                
             </div>
         </div>
 
@@ -227,7 +228,7 @@ self-discovery and personalized growth.
   <!-- Testimonials Section End -->
 
   <!-- CTA Section Start -->
-<section class="mt-24">
+<section class="mt-36">
     <div class="bg-reflectia-50 w-11/12 justify-center mx-auto rounded-3xl">
         <div class="p-12 flex flex-col items-center justify-center">
             <h1 class="text-reflectia-950 text-center header-font text-8xl w-11/12 mx-auto">Install Reflectia<br>And Unlock Yourself</h1>

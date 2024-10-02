@@ -2,14 +2,17 @@
 {% load static %}
 
 <!-- Footer Start -->
-<section class="mt-36">
+<section class="mt-36 sticky bottom-0 h-dvh">
     <div class="border-t border-reflectia-200">
         <div class="mt-6 flex flex-row justify-between">
-            <div class="w-24"><a href="#"><img src="{% static "images/logo/White-logo.png"%}" alt=""></a></div>
+            <div class="w-24"><a href="{% url "app:index"%}#top"><img src="{% static "images/logo/White-logo.png"%}" alt=""></a></div>
             <div class="flex flex-row justify-between space-x-24">
-                <p>Legal</p>
-                <p>Terms</p>
-                <p>Cookies</p>
+                <a href="{% url "app:legal" %}"><p>Legal</p></a>
+                <a href="{% url "app:terms" %}"><p>Terms</p></a>
+                <a href="{% url "app:cookies" %}"><p>Cookies</p></a>
+                
+              
+                
             </div>
             <p>Reflectia.All rights reserved.</p>
 
