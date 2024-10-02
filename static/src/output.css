@@ -1568,6 +1568,18 @@ html{
   margin-top: 1.5rem;
 }
 
+.mb-12{
+  margin-bottom: 3rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mb-24{
+  margin-bottom: 6rem;
+}
+
 .block{
   display: block;
 }
@@ -1668,12 +1680,24 @@ html{
   align-items: center;
 }
 
+.justify-start{
+  justify-content: flex-start;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-center{
   justify-content: center;
 }
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-items-end{
+  justify-items: end;
 }
 
 .justify-items-center{
