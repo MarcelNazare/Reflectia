@@ -2,14 +2,14 @@
 {% load static %}
 
 <!-- Hero Section Start -->
-<header class="mt-24 grid grid-rows-1 grid-flow-col gap-2 justify-items-end justify-end">
-    <h1 class="text-reflectia-200 header-font text-8xl text-left ">
+<header class="mt-24 grid grid-rows-1 lg:grid-flow-col grid-flow-row gap-2   justify-items-end justify-end">
+    <h1 class="text-reflectia-200 header-font lg:text-8xl lg:text-left text-center text-6xl mb-12 ">
         Unlock Your Potential. Thought By Thought.
     </h1>
     <div class="place-self-end h-24">
-        <div> 
-            <p class="text-left">Reflectia's here to support you. Explore your thoughts, identify biases, and watch yourself blossom. Let's start your self-discovery journey together!</p>
-            <div class="mt-4">
+        <div class="flex flex-col"> 
+            <p class="lg:text-left text-center ">Reflectia's here to support you. Explore your thoughts, identify biases, and watch yourself blossom. Let's start your self-discovery journey together!</p>
+            <div class="lg:mt-4 mt-8 mx-auto">
                 <a href="{% url "app:index" %}#howItWorks"><button class="border border-reflectia-200 px-4 py-2 rounded-full ">Learn More</button></a>
                 <a href="{% url "account_signup" %}"><button class="border border-reflectia-200 px-4 py-2 rounded-full mx-4">Get Started</button></a>
                 
@@ -21,19 +21,19 @@
 <!-- Hero Section End -->
 
 <!-- Self Mastery Section Start -->
-<section class="mt-24">
-    <h1 class="text-reflectia-200 header-font text-8xl text-center w-11/12 mx-auto">
-        Self Mastery Made Easy. Reflect.Become You.
+<section class="container lg:mt-24 mt-36">
+    <h1 class=" text-reflectia-200 header-font lg:text-8xl text-6xl text-center lg:w-11/12 w-screen mx-auto">
+        Self Mastery Made Easy.<br> Reflect. <br> Become You.
     </h1>
-    <div class="flex justify-center items-center">
-        <img class=" w-3/4  object-contain" src="{% static "images/image/10313329_14.png"%}" alt="3D Mobile Phones">
+    <div class="lg:mt-24 flex justify-center items-center">
+        <img class=" lg:w-3/4 w-full object-contain" src="{% static "images/image/10313329_14.png"%}" alt="3D Mobile Phones">
     </div>
 </section>
 <!-- Self Mastery Section End -->
 
  <!-- Guide Section Start -->
 <section class="mt-24" id="howItWorks">
-    <h1 class="text-reflectia-200 header-font text-8xl text-center w-11/12 mx-auto">
+    <h1 class="text-reflectia-200 header-font lg:text-8xl text-6xl text-center w-11/12 mx-auto">
         Here's How Reflectia Guides You
     </h1>
     <p class="mt-12 text-center">
@@ -76,7 +76,7 @@
 
   <!-- Choose Your Experience Section -->
 <section class="mt-24">
-        <h1 class="text-reflectia-200 text-center header-font text-8xl w-11/12 mx-auto">
+        <h1 class="text-reflectia-200 header-font lg:text-8xl text-6xl text-center lg:w-11/12 w-fit mx-auto">
             Choose Your Reflectia Experience
         </h1>
         <p class="mt-12 text-center">
