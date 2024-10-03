@@ -1,35 +1,58 @@
 {% load compress %}
 {% load static %}
-<section class="flex flex-wrap flex-row  items-center  justify-between border-b border-reflectia-200 pb-4" id="top">
-  <div class="w-36">
-    <a href="#"><img src="{% static "images/logo/White-logo.png"%}" alt=""></a>
-  </div>
-  <div class="flex flex-wrap flex-row justify-between border border-reflectia-200 p-2 rounded-full">
-    <p class="mx-8"><a href="{% url "app:index" %}">Home</a></p>
-    <p class="mx-8"><a href="{% url "app:index" %}#howItWorks">How It Works</a></p>
-    <p class="mx-8"><a href="{% url "app:contact" %}">Contact Us</a></p>
-  </div>
-  <div>
- 
-    {% if user.is_authenticated %}
-    <div>
-      <span>{{profile.image}}</span>
-      <span>{{profile.username}}</span>
+<section class="" id="top">
+  
+  <!-- Mobile -->
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns ="http:www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke = currentColor><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M$ 6h16M4 12h8m-8 6h16 "/></svg>
+        <ul class="menu menu-sm dropdown content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52" >
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
     </div>
-   
-    <a href="{% url "account_logout" %}">
-      <button class="border border-reflectia-200 rounded-full py-2 px-4 mx-4">Logout</button>
-    </a>
-    {% else %}
-    <a href="{% url "account_login"%}">
-      <button class="border border-reflectia-200 rounded-full py-2 px-4 ">Login </button></a>
-    <a href="{% url "account_signup" %}">
-      <button class="border border-reflectia-200 rounded-full py-2 px-4 mx-4">Get Started</button>
-    </a>
-    {% endif %}
-
-
   </div>
+
+  <!-- Desktop-->
+	<div class="navbar-center  flex flex-wrap flex-row  items-center  justify-between border-b border-reflectia-200 pb-4">
+    <div class="w-36">
+      <a href="{% url "app:index" %}"><img src="{% static "images/logo/White-logo.png"%}" alt=""></a>
+    </div>
+    <div class="flex flex-wrap flex-row justify-between border border-reflectia-200 p-2 rounded-full">
+      <p class="mx-8"><a href="{% url "app:index" %}">Home</a></p>
+      <p class="mx-8"><a href="{% url "app:index" %}#howItWorks">How It Works</a></p>
+      <p class="mx-8"><a href="{% url "app:contact" %}">Contact Us</a></p>
+    </div>
+    <div>
+   
+      {% if user.is_authenticated %}
+      <div>
+        <span>{{profile.image}}</span>
+        <span>{{profile.username}}</span>
+      </div>
+     
+      <a href="{% url "account_logout" %}">
+        <button class="border border-reflectia-200 rounded-full py-2 px-4 mx-4">Logout</button>
+      </a>
+      {% else %}
+      <a href="{% url "account_login"%}">
+        <button class="border border-reflectia-200 rounded-full py-2 px-4 ">Login </button></a>
+      <a href="{% url "account_signup" %}">
+        <button class="border border-reflectia-200 rounded-full py-2 px-4 mx-4">Get Started</button>
+      </a>
+      {% endif %}
+  
+  
+    </div>
+  </div>
+
+
+
 </section>
 
 
